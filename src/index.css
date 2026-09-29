@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --black: #090909;
+  --white: #F2EFE8;
+  --gray: #9A9A96;
+  --dark-gray: #1A1A1A;
+  --red: #C62F2F;
+}
+
+@layer base {
+  body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom font utilities */
+.font-display {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--dark-gray);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--red);
+}
+
+/* Fluid responsive typography helper */
+.title-hero {
+  font-size: clamp(3rem, 10vw, 9rem);
+  line-height: 0.9;
+}
+
+.title-section {
+  font-size: clamp(2.5rem, 7vw, 6.5rem);
+  line-height: 0.92;
+}
+
+.title-sub {
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
+  line-height: 1;
+}
+
+/* Editorial line decorations */
+.red-accent-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: var(--red);
+  border-radius: 50%;
+}

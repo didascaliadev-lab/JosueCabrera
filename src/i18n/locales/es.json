@@ -1,0 +1,273 @@
+{
+  "nav": {
+    "scene": "ESCENA",
+    "pedagogy": "PEDAGOGÍA",
+    "body": "CUERPO",
+    "code": "CÓDIGO",
+    "about": "SOBRE MÍ",
+    "contact": "CONTACTO"
+  },
+  "hero": {
+    "name": "JOSUÉ CABRERA",
+    "titleLine1": "NO SUPE",
+    "titleLine2": "ESCOGER",
+    "titleLine3": "UNA SOLA COSA.",
+    "rolesLine1": "Actor · Director · Dramaturgo",
+    "rolesLine2": "Pedagogo teatral · Maestro de salsa cubana",
+    "rolesLine3": "Desarrollador web · Cocinero", 
+    "musicianNote": "¿Músico?"
+  },
+  "intro": {
+    "tag": "DECLARACIÓN DE INTENCIONES",
+    "title": "HAGO COSAS.",
+    "text": "Trabajo entre el escenario, la escritura, la enseñanza, el cuerpo, las ollas y la tecnología.",
+    "subtext": "Algunas de esas cosas incluso las hago profesionalmente."
+  },
+  "universes": {
+    "scene": {
+      "num": "01",
+      "tag": "ESCENA",
+      "subtitle": "Actor · Director · Dramaturgo",
+      "text": "Más de 15 años entre escenarios, luces, calles, textos, cámaras y mucho juego.",
+      "cta": "VER TRABAJO →"
+    },
+    "pedagogy": {
+      "num": "02",
+      "tag": "TRANSMISIÓN",
+      "subtitle": "Pedagogía teatral",
+      "quote": "El teatro también se aprende enseñando.",
+      "text": "Talleres, procesos de formación actoral y laboratorios de creación colectiva.",
+      "cta": "VER PEDAGOGÍA →"
+    },
+    "body": {
+      "num": "03",
+      "tag": "CUERPO",
+      "subtitle": "Salsa cubana",
+      "quoteLine1": "BAILAR",
+      "quoteLine2": "ES LIBERTAD",
+      "quoteLine3": "DESDE EL CUERPO.",
+      "text": "Ritmo, conexión, musicalidad, comunicación, movimiento, vida en libertad.",
+      "cta": "VER CUERPO →"
+    },
+    "code": {
+      "num": "04",
+      "tag": "CÓDIGO",
+      "subtitle": "Desarrollo web",
+      "titleLine1": "También hago",
+      "titleLine2": "páginas web.",
+      "titleLine3": "Sí, ya sé...",
+      "text": "Hacemos sitios web a la medida de lo que necesitas.",
+      "cta": "VER CÓDIGO →"
+    }
+  },
+  "musician": {
+    "trigger": "¿Y la música?",
+    "titleLine1": "MÚSICO",
+    "titleLine2": "FRUSTRADO.",
+    "description": "Llevo años intentando convencer a varios instrumentos de que tenemos futuro juntos.",
+    "currentLevel": "Nivel actual",
+    "talent": "Talento",
+    "frustration": "Frustración",
+    "nota": "Nota: Los vecinos confirman estos porcentajes"
+  },
+  "aboutPreview": {
+    "titleLine1": "EN RESUMEN,",
+    "titleAside": "también",
+    "titleLine2": "SOY ESTE.",
+    "bio": "Josué Cabrera (CDMX-1986). Creador escénico, profesor de teatro y danzas populares, cocinero,  y desarrollador. Como se nota, no sabe estar quieto y eso le ha llevado a desplazarse y probar vivir en distintos lugares: Nace en el extinto Distrito Federal y al año de edad llega a ciudad Neza donde crece. Ya como adulto -ajá- se muda a Tláhuac y después a la colonia Narvarte en la actual CDMX. Tiempo después se muda a Yucatán a probar las mieles de Mérida y como no fueron tan dulces, se desplaza a Chelem comisaría de Progreso. Casi al terminar la pandemia de COVID 19, por cuestión de suerte, llega a Puerto Morelos en Quintana Roo donde realiza tres mudanzas en un año dentro del mismo pueblo con encanto. Actualmente  planea su siguiente movimiento: Argentina.",
+    "close": "continuará...",
+    "timeline": {
+      "heading": "ESTADO ACTUAL",
+      "date": "HOY · 2026",
+      "acting": "ACTUACIÓN",
+      "directing": "DIRECCIÓN",
+      "dramaturgy": "DRAMATURGIA",
+      "pedagogy": "PEDAGOGÍA",
+      "salsa": "SALSA",
+      "web": "DESARROLLO WEB",
+      "music": "MÚSICA",
+      "present": "EN ACTIVO",
+      "trying": "SEGUIMOS INTENTANDO"
+    },
+  "cta": "MÁS SOBRE MÍ →"
+  },
+  "contactCTA": {
+  "eyebrow": "CONTACTO & COLABORACIÓN",
+  "titleLine1": "¿HACEMOS", 
+  "titleLine2": "ALGO JUNTOS?",
+  "subtitle": "Teatro, talleres, danza, código o alguna idea difícil de clasificar.",
+  "cta": "HABLEMOS →",
+  "disclaimer": "Para propuestas musicales: por favor adjuntar consentimiento informado."
+  },
+
+ "about": {
+  "backHome": "← VOLVER AL INICIO",
+  "continue": "Continuamos...",
+  "eyebrow": "TRAYECTORIA",
+  "title": "LO QUE HA PASADO HASTA AHORA",
+  "intro": "Una selección de trabajos, procesos y accidentes profesionales.",
+
+  "disciplines": {
+    "acting": {
+      "title": "ACTUACIÓN",
+      "imageAlt": "Josué Cabrera durante un trabajo escénico",
+      "description": "Actor de teatro con experiencia en distintos procesos de creación escénica.",
+      "items": {
+        "1": {
+          "year": "AÑO",
+          "text": "Proyecto, obra o experiencia relevante."
+        },
+        "2": {
+          "year": "AÑO",
+          "text": "Proyecto, obra o experiencia relevante."
+        },
+        "3": {
+          "year": "AÑO",
+          "text": "Proyecto, obra o experiencia relevante."
+        }
+      }
+    },
+
+    "directing": {
+      "title": "DIRECCIÓN",
+      "imageAlt": "Josué Cabrera durante un proceso de dirección escénica",
+      "description": "Dirección y acompañamiento de procesos de creación escénica.",
+      "items": {
+        "1": {
+          "year": "AÑO",
+          "text": "Proyecto o montaje relevante."
+        },
+        "2": {
+          "year": "AÑO",
+          "text": "Proyecto o montaje relevante."
+        },
+        "3": {
+          "year": "AÑO",
+          "text": "Proyecto o montaje relevante."
+        }
+      }
+    },
+
+    "dramaturgy": {
+      "title": "DRAMATURGIA",
+      "imageAlt": "Josué Cabrera durante un proceso de escritura y creación dramatúrgica",
+      "description": "Escritura, adaptación y construcción dramatúrgica para la escena.",
+      "items": {
+        "1": {
+          "year": "AÑO",
+          "text": "Texto, obra o proceso relevante."
+        },
+        "2": {
+          "year": "AÑO",
+          "text": "Texto, obra o proceso relevante."
+        },
+        "3": {
+          "year": "AÑO",
+          "text": "Texto, obra o proceso relevante."
+        }
+      }
+    },
+
+    "pedagogy": {
+      "title": "PEDAGOGÍA",
+      "imageAlt": "Josué Cabrera durante una actividad de pedagogía teatral",
+      "description": "Docencia teatral y acompañamiento de procesos de aprendizaje desde el cuerpo, el juego y la escena.",
+      "items": {
+        "1": {
+          "year": "AÑO",
+          "text": "Taller, institución o experiencia pedagógica."
+        },
+        "2": {
+          "year": "AÑO",
+          "text": "Taller, institución o experiencia pedagógica."
+        },
+        "3": {
+          "year": "AÑO",
+          "text": "Taller, institución o experiencia pedagógica."
+        }
+      }
+    },
+
+    "dance": {
+      "title": "DANZAS POPULARES",
+      "imageAlt": "Josué Cabrera bailando salsa cubana",
+      "description": "Docencia y práctica de danzas populares, con especial atención a la salsa cubana.",
+      "items": {
+        "1": {
+          "year": "AÑO",
+          "text": "Proyecto, escuela o experiencia relevante."
+        },
+        "2": {
+          "year": "AÑO",
+          "text": "Proyecto, escuela o experiencia relevante."
+        },
+        "3": {
+          "year": "AÑO",
+          "text": "Proyecto, escuela o experiencia relevante."
+        }
+      }
+    },
+
+    "web": {
+      "title": "DESARROLLO WEB",
+      "imageAlt": "Trabajo de diseño y desarrollo web de Josué Cabrera",
+      "description": "Diseño y desarrollo de experiencias web, combinando estructura, interfaz y narrativa visual.",
+      "items": {
+        "1": {
+          "year": "AÑO",
+          "text": "Proyecto web relevante."
+        },
+        "2": {
+          "year": "AÑO",
+          "text": "Proyecto web relevante."
+        },
+        "3": {
+          "year": "AÑO",
+          "text": "Proyecto web relevante."
+        }
+      }
+    },
+
+    "music": {
+      "title": "MÚSICA",
+      "imageAlt": "Josué Cabrera en uno de sus persistentes intentos musicales",
+      "description": "Una relación larga, complicada y sorprendentemente persistente.",
+      "items": {
+        "1": {
+          "year": "∞",
+          "text": "Aprender."
+        },
+        "2": {
+          "year": "∞",
+          "text": "Practicar."
+        },
+        "3": {
+          "year": "HOY",
+          "text": "Seguimos intentando."
+        }
+      }
+    }
+  }
+},
+"contact": {
+  "backHome": "← VOLVER AL INICIO",
+  "title": "CONTACTO",
+  "subtitle": "Teatro, talleres, danza o proyectos web.",
+  "description": "¿Tienes alguna propuesta o quieres colaborar en algún proyecto?",
+  "emailLabel": "EMAIL PREPARADO",
+  "musicNote": "Para propuestas musicales: por favor adjuntar consentimiento informado."
+},
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "placeholders": {
+    "scenePageTitle": "ESCENA",
+    "pedagogyPageTitle": "PEDAGOGÍA",
+    "bodyPageTitle": "CUERPO & SALSA",
+    "codePageTitle": "DESARROLLO WEB",
+    "aboutPageTitle": "SOBRE JOSUÉ CABRERA",
+    "contactPageTitle": "CONTACTO",
+    "backHome": "← VOLVER A HOME",
+    "comingSoon": "Página en construcción. Esta sección detallada se integrará próximamente."
+  }
+}
