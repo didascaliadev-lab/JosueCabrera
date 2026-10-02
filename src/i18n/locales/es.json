@@ -249,6 +249,211 @@
     }
   }
 },
+
+"scene": {
+  "hero": {
+    "eyebrow": "ESCENA",
+    "acting": "ACTUAR.",
+    "directing": "DIRIGIR.",
+    "writing": "ESCRIBIR.",
+    "aside": "A veces en ese orden.",
+    "imageAlt": "Josué Cabrera en escena"
+  },
+
+  "statement": {
+    "eyebrow": "EL TEATRO",
+    "text": "El teatro ha sido el lugar donde he pasado buena parte de mi vida haciento, fracasando, intentando, aprendiendo y volviendo a empezar. Esto no sería así si no fuera parte de mis motores de vida."
+  },
+
+  "disciplines": {
+    "eyebrow": "DISTINTAS FORMAS DE ESTAR EN ESCENA",
+    "title": "LO IMPORTANTE ES QUE EL CONVIVIO SUCEDA.",
+
+    "acting": {
+      "title": "ACTUACIÓN",
+      "subtitle": "Aquí y ahora.",
+      "description": "Mi primer contacto con el teatro fue desde la actuación. Inicié en talleres buscando ser actor, pero principalmente quería ser mimo y clown. Luego, ya saben, la vida me llevó errando -o no- el camino.  Mi naturaleza pedía diversificarme, no sé si esté bien o no, sólo así es...por eso, siempre abierto a todo lo que me inviten...",
+      "imageAlt": "Josué Cabrera durante un trabajo como actor"
+    },
+
+    "directing": {
+      "title": "DIRECCIÓN",
+      "subtitle": "Mirar desde afuera. Aunque nunca del todo.",
+      "description": "Después de estar lejos de casa y de las personas con las que siempre formé equipo o que me invitaban a sus proyectos, me vi en la necesidad de probar, echar a perder y tener hallazgos desde este complejo rol.",
+      "imageAlt": "Josué Cabrera. Dirección de Tlaloques, extranjeros y otros mensajeros"
+    },
+
+    "dramaturgy": {
+      "title": "DRAMATURGIA",
+      "subtitle": "Las palabras me atragantan.",
+      "description": "El proceso de vaciar mi sentir en el papel es relativamente reciente. Aún cuando ya escribía, nunca me había permitido hacerlo de manera más formal, estructurada y constante. Durante la pandemia inicié con mi primer texto que fue llevado a escena, primero de manera intuitiva y después sentí la necesidad de seguir en estos procesos, asi que empecé a tomar talleres donde fui acompañado de personas admirables que tengo la fortuna de llamar maestrxs.",
+      "imageAlt": "Proceso de escritura y dramaturgia de Josué Cabrera"
+    }
+  },
+
+    "actingProjects": {
+      "eyebrow": "TRABAJOS DE ACTUACIÓN",
+      "title": "ALGUNOS DE LOS MONTAJES DONDE PARTICIPÉ",
+
+      "items": {
+        "naufragos": {
+          "title": "LOS NÁUFRAGOS",
+          "description": "Texto de Guillermo León bajo la dirección de David Psalmon. El montaje tuvo funciones en distintos espacios y festivales de México y Costa Rica.",
+          "credits": "Casa del Lago · Foro de las Artes del CENART · Festival Fringe, San Miguel de Allende · León · Querétaro · Festival AlgoImagen, San José, Costa Rica",
+          "imageAlt": "Josué Cabrera en Los Náufragos"
+        },
+
+        "okanjore": {
+          "title": "OKANJORE",
+          "description": "Espectáculo unipersonal. Coautoría con Ángel Rubio, bajo la dirección de este último.",
+          "credits": "Presentaciones en distintos recintos del país, plazas públicas, reclusorios y reformatorios · Colombia · Argentina",
+          "imageAlt": "Josué Cabrera en Okanjore"
+        },
+
+        "teatroForum": {
+          "title": "TEATRO Foro",
+          "description": "Trabajo desarrollado con el Colectivo TeatroSinParedes a partir de la técnica de Teatro Foro, con proyectos presentados de manera activa en gran parte de los estados del país.",
+          "credits": "Contra Ellas · Por el trabajo · ¿Somos el cambio? · La Línea, Fórum sobre migración · Textos de Edgar Chías",
+          "imageAlt": "Josué Cabrera en un proyecto de Teatro Fórum del Colectivo TeatroSinParedes"
+        },
+
+        "raiz": {
+          "title": "RAÍZ",
+          "description": "Proyecto escénico de autoría y dirección de Diego Álvarez Robledo. ",
+          "credits": "Autoría y dirección: Diego Álvarez Robledo. Funciones en el CENART, Museo Universitario del Chopo, Teatro Julio Castillo, entre otros.",
+          "imageAlt": "Josué Cabrera en Raíz"
+        }
+      }
+    },
+
+    "screen": {
+      "eyebrow": "Y A VECES...",
+      "title": "PANTALLA.",
+      "description": "Algunas apariciones frente a una cámara. Largometraje y algunos beats.",
+
+      "reel": {
+        "eyebrow": "VIDEO",
+        "title": "DEMO REEL",
+        "type": "ACTUACIÓN · CINE / TV",
+        "caption": "Selección de trabajos frente a cámara"
+      },
+      
+      "types": {
+        "film": "CINE",
+        "series": "SERIE"
+      },
+
+      "items": {
+        "rachasRotas": {
+          "title": "RACHAS ROTAS",
+          "credits": "Autoría y dirección de Arturo Núñez"
+        },
+
+        "casaFlores": {
+          "title": "LA CASA DE LAS FLORES",
+          "credits": "Dirección: Manolo Caro"
+        },
+
+        "bronco": {
+          "title": "BRONCO: LA SERIE",
+          "credits": "Dirección: Max Zunino y Conrado Martínez"
+        },
+
+        "territorio": {
+          "title": "TERRITORIO",
+          "credits": "Dirección: Andrés Clariond"
+        },
+
+        "laif": {
+          "title": "LAIF",
+          "credits": "Dir. Luis Arenas"
+        }
+      },
+
+      "imageAlt": "Trabajos de Josué Cabrera para cine y series"
+    },
+
+    "offstage": {
+      "eyebrow": "INTERMEDIO",
+      "text": "Hasta aquí porque ya no te quiero saturar...",
+      "text1":"más...",
+      "text2":"Por ahora.",
+      "close": "Seguimos sumando proyectos."
+    },
+
+    "cta": {
+      "eyebrow": "COLABORACIONES",
+      "title": "¿TIENES UN PROYECTO ESCÉNICO?",
+      "button": "HABLEMOS →"
+    },
+    "directingProjects": {
+  "eyebrow": "SELECCIÓN",
+  "title": "ALGUNOS PROYECTOS DE DIRECCIÓN.",
+  "items": {
+    "esLoQueNosToca": {
+      "title": "ES LO QUE NOS TOCA ¿NO?",
+      "description": "Puesta en escena desarrollada a partir de la técniaca de Teatro Foro. Coproducción del Colectivo Cultural Los de Allá y la FARO de Cancún.",
+      "credits": "Dirección y dramaturgia: Josué Cabrera · Colectivo Cultural Los de Allá · FARO Cancún · Secretaría del Bienestar de Quintana Roo",
+      "imageAlt": "Es lo que nos toca ¿no?, dirección de Josué Cabrera"
+    },
+    "inestables": {
+      "title": "INESTABLES",
+      "description": "Show de improvisación teatral dirigido por Josué Cabrera, presentado en la FARO Cancún.",
+      "credits": "Dirección: Josué Cabrera · FARO Cancún · Marzo de 2026",
+      "imageAlt": "INESTABLES, show de improvisación dirigido por Josué Cabrera"
+    },
+    "vacio": {
+      "title": "IMPRO AL VACÍO",
+      "description": "Espectáculo de improvisación teatral realizado en Puerto Morelos, Quintana Roo.",
+      "credits": "Dirección: Josué Cabrera · Puerto Morelos, Quintana Roo",
+      "imageAlt": "Impro al vacío, espectáculo de improvisación teatral"
+    },
+    "tlaloques": {
+      "title": "TLALOQUES, EXTRANJEROS Y OTROS MENSAJEROS",
+      "description": "Proyecto que aborda la xenofobia, la migración y la búsqueda de una lugar en el cual echar raíces. Presentaciones en Yucatán y Quintana Roo.",
+      "credits": "Dirección y dramaturgia: Josué Cabrera · Producción: Colectivo Arte Sin Frontera · Yucatán · Quintana Roo",
+      "imageAlt": "Tlaloques, extranjeros y otros mensajeros, dirección de Josué Cabrera"
+    }
+  }
+},
+"dramaturgyProjects": {
+  "eyebrow": "TEXTOS",
+  "title": "ALGUNAS COSAS QUE ESCRIBÍ PARA QUE OCURRIERAN.",
+  "author": "Dramaturgia · Josué Cabrera",
+  "read": "Leer fragmento",
+  "items": {
+    "tlaloques": {
+      "title": "Tlaloques, extranjeros y otros mensajeros"
+    },
+    "fractura": {
+      "title": "Fractura"
+    },
+    "dondeAunSeSirveElPan": {
+      "title": "Donde aún se sirve el pan"
+    },
+    "gordoXtreaming": {
+      "title": "Gordo Xtreaming"
+    }
+  },
+  "reader": {
+    "fragment": "Fragmento",
+    "label": "Texto teatral · Fragmento",
+    "author": "Dramaturgia de Josué Cabrera",
+    "close": "Cerrar",
+    "comingSoon": "Fragmento próximamente",
+    "end": "Fin del fragmento",
+    "copyright": "© Josué Cabrera · Todos los derechos reservados. Este fragmento se publica exclusivamente para su lectura."
+  },
+  "cta": {
+    "eyebrow": "¿QUIERES SEGUIR LEYENDO?",
+    "title": "LA OBRA NO TERMINA AQUÍ.",
+    "description": "Si deseas leer una obra completa, conocer otros textos o estás interesado en montar alguno de ellos, ponte en contacto.",
+    "button": "Solicitar texto"
+  },
+  "copyright": "© Josué Cabrera · Todos los textos y fragmentos publicados en este sitio son propiedad de su autor. Todos los derechos reservados."
+}
+  },
+
 "contact": {
   "backHome": "← VOLVER AL INICIO",
   "title": "CONTACTO",
