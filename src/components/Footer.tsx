@@ -21,6 +21,11 @@ export const Footer = () => {
       name: 'WhatsApp',
       url: 'https://wa.me/5215551886713',
     },
+   
+    {
+      name: 'YouTube',
+      url: 'https://www.youtube.com/@josuecabrera9045',
+    },
   ];
 
   return (

@@ -25,20 +25,19 @@ export const HeroSection = () => {
               {t('hero.name')}
             </span>
           </div>
+<h1 className="select-none font-display text-[clamp(3.5rem,8vw,7.5rem)] leading-[0.76] tracking-tight uppercase">
+  <span className="relative z-10 block text-amber-50">
+    {t('hero.titleLine1')}
+  </span>
 
-          <h1 className="select-none font-display leading-[0.88] tracking-tight text-amber-50 uppercase">
-            <span className="block text-[clamp(3.5rem,8vw,7.5rem)]">
-              {t('hero.titleLine1')}
-            </span>
+  <span className="relative z-20 block text-amber-500">
+    {t('hero.titleLine2')}
+  </span>
 
-            <span className="block text-[clamp(3.5rem,8vw,7.5rem)]">
-              {t('hero.titleLine2')}
-            </span>
-
-            <span className="block text-[clamp(3.5rem,8vw,7.5rem)] font-bold">
-              {t('hero.titleLine3')}
-            </span>
-          </h1>
+  <span className="relative z-10 block font-bold text-amber-50">
+    {t('hero.titleLine3')}
+  </span>
+</h1>
 
           <div className="max-w-xl border-l-2 border-amber-500 py-1 pl-4 font-sans text-sm sm:text-base">
             <p className="font-medium tracking-wide text-amber-50/90">

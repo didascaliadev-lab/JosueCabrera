@@ -5,6 +5,7 @@ import { ActingProjects } from '../sections/ActingProjects';
 import { ScreenProjects } from '../sections/ScreenProjects';
 import { DirectionProjects } from '../sections/DirectionProjects';
 import { DramaturgyProjects } from '../sections/DramaturgyProjects';
+import { PageHero } from '../sections/PageHero';
 
 const disciplines = [
   {
@@ -32,61 +33,27 @@ export const Scene = () => {
 
   return (
     <main className="bg-slate-950 text-amber-50">
-      {/* Hero */}
-      <section className="relative flex min-h-[90svh] items-end overflow-hidden px-6 pt-32 pb-16 sm:px-10 sm:pb-20">
-        <div className="absolute inset-0">
-          <img
-            src="/images/escena/hero.webp"
-            alt={t('scene.hero.imageAlt')}
-            className="h-full w-full object-cover"
+          {/* Hero */}
+          <PageHero
+            eyebrow={t('scene.hero.eyebrow')}
+            lines={[
+              {
+                text: t('scene.hero.acting'),
+              },
+              {
+                text: t('scene.hero.directing'),
+                accent: true,
+              },
+              {
+                text: t('scene.hero.writing'),
+              },
+            ]}
+            note={t('scene.hero.aside')}
+            imageSrc="/images/escena/hero.webp"
+            imageAlt={t('scene.hero.imageAlt')}
+            imageClassName="object-center"
           />
 
-          <div className="absolute inset-0 bg-slate-950/40" />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-slate-950/20" />
-        </div>
-
-        <div className="relative z-10 mx-auto w-full max-w-7xl">
-          <motion.span
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            className="mb-6 block font-mono text-xs tracking-[0.25em] text-amber-500 uppercase"
-          >
-            {t('scene.hero.eyebrow')}
-          </motion.span>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              duration: 0.8,
-              ease: [0.16, 1, 0.3, 1],
-            }}
-            className="font-display text-6xl leading-[0.82] tracking-tight uppercase sm:text-8xl lg:text-[9rem]"
-          >
-            <span className="block">
-              {t('scene.hero.acting')}
-            </span>
-
-            <span className="block text-amber-500">
-              {t('scene.hero.directing')}
-            </span>
-
-            <span className="block">
-              {t('scene.hero.writing')}
-            </span>
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
-            className="mt-8 font-editorial text-2xl text-amber-50/80 italic sm:text-3xl"
-          >
-            {t('scene.hero.aside')}
-          </motion.p>
-        </div>
-      </section>
 
       {/* Manifiesto */}
       <section className="bg-amber-50 px-6 py-24 text-slate-950 sm:px-10 sm:py-32">

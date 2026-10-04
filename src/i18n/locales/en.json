@@ -1,272 +1,760 @@
 {
   "nav": {
-    "scene": "STAGE",
+    "scene": "SCENE",
     "pedagogy": "PEDAGOGY",
-    "body": "BODY",
     "code": "CODE",
-    "about": "ABOUT ME",
+    "about": "ABOUT",
     "contact": "CONTACT"
   },
   "hero": {
     "name": "JOSUÉ CABRERA",
     "titleLine1": "I COULDN'T",
-    "titleLine2": "CHOOSE JUST",
-    "titleLine3": "ONE THING.",
+    "titleLine2": "CHOOSE",
+    "titleLine3": "JUST ONE THING.",
     "rolesLine1": "Actor · Director · Playwright",
-    "rolesLine2": "Theater Pedagogue · Cuban Salsa Instructor",
-    "rolesLine3": "Web Developer · Cook",
+    "rolesLine2": "Theatre educator · Cuban salsa teacher",
+    "rolesLine3": "Web developer · Cook",
     "musicianNote": "Musician?"
   },
   "intro": {
     "tag": "STATEMENT OF INTENT",
     "title": "I MAKE THINGS.",
-    "text": "I work between the stage, writing, teaching, movement, pots, and technology.",
-    "subtext": "Some of those things I even do professionally."
+    "text": "I work between the stage, writing, teaching, the body, cooking pots, and technology.",
+    "subtext": "I even do some of those things professionally."
   },
   "universes": {
     "scene": {
       "num": "01",
-      "tag": "STAGE",
+      "tag": "SCENE",
       "subtitle": "Actor · Director · Playwright",
-      "text": "More than 15 years between stages, lights, streets, texts, cameras, and lots of play.",
-      "cta": "VIEW WORK →"
+      "text": "More than 15 years among stages, lights, streets, texts, cameras, and a lot of play.",
+      "cta": "SEE WORK →"
     },
     "pedagogy": {
       "num": "02",
       "tag": "TRANSMISSION",
-      "subtitle": "Theater Pedagogy",
-      "quote": "Theater is also taught by teaching.",
-      "text": "Workshops, acting training processes, and collective creation laboratories.",
-      "cta": "VIEW PEDAGOGY →"
+      "subtitle": "Theatre pedagogy",
+      "quote": "Theatre is also learned by teaching.",
+      "text": "Workshops, actor training processes, and collective creation laboratories.",
+      "cta": "SEE PEDAGOGY →"
     },
-    "body": {
+    "casino": {
       "num": "03",
-      "tag": "BODY",
-      "subtitle": "Cuban Salsa",
+      "tag": "CASINO · CUBAN SALSA",
+      "subtitle": "Casino · Cuban Salsa",
       "quoteLine1": "DANCING",
-      "quoteLine2": "IS ALSO",
-      "quoteLine3": "THINKING.",
-      "text": "Rhythm, connection, musicality, communication, movement, life in freedom.",
-      "cta": "VIEW BODY →"
+      "quoteLine2": "IS FREEDOM",
+      "quoteLine3": "THROUGH THE BODY.",
+      "text": "Rhythm, connection, musicality, communication, movement, a life in freedom.",
+      "cta": "SEE CASINO →"
     },
     "code": {
       "num": "04",
       "tag": "CODE",
-      "subtitle": "Web Development",
+      "subtitle": "Web development",
       "titleLine1": "I also make",
       "titleLine2": "websites.",
-      "titleLine3": "Yes, I know.",
-      "text": "Building digital experiences with craft, typography, architecture, and attention to detail.",
-      "cta": "VIEW CODE →"
+      "titleLine3": "Yes, I know...",
+      "text": "We build websites tailored to what you need.",
+      "cta": "SEE CODE →"
     }
   },
   "musician": {
     "trigger": "What about music?",
-    "titleLine1": "FRUSTRATED",
-    "titleLine2": "MUSICIAN.",
+    "titleLine1": "MUSICIAN",
+    "titleLine2": "FRUSTRATED.",
     "description": "I've spent years trying to convince several instruments that we have a future together.",
     "currentLevel": "Current level",
     "talent": "Talent",
     "frustration": "Frustration",
-    "nota":"Note: The neighbors confirm these percentages"
+    "nota": "Note: The neighbors confirm these percentages"
   },
   "aboutPreview": {
     "titleLine1": "IN SHORT,",
     "titleAside": "also",
     "titleLine2": "THIS IS ME.",
-    "bio": "Josué Cabrera (Mexico City, 1986). Stage artist, theatre teacher, popular dance instructor, cook, and developer. As you can probably tell, he has never been very good at sitting still, which has led him to move around and try living in all sorts of places. He was born in what was then the Federal District and, at the age of one, moved to Ciudad Neza, where he grew up. As an adult —yes, really— he moved to Tláhuac and later to the Narvarte neighborhood in present-day Mexico City. Some time later, he headed to Yucatán to sample the sweetness of life in Mérida and, when it turned out not to be quite so sweet, moved on to Chelem, a small coastal community in Progreso. As the COVID-19 pandemic was nearing its end, a stroke of luck brought him to Puerto Morelos, Quintana Roo, where he somehow managed to move three times within the same charming little town in just one year. He is currently planning his next move: Argentina.",
+    "bio": "Josué Cabrera (Mexico City, 1986). Performing artist, theatre and popular-dance teacher, cook, and developer. As you can probably tell, he doesn't know how to sit still, which has led him to move around and try living in different places: born in the former Federal District, he arrived in Ciudad Neza at one year old and grew up there. As an adult —yes, supposedly— he moved to Tláhuac and later to the Narvarte neighborhood in present-day Mexico City. Later he moved to Yucatán to sample the sweetness of Mérida, and when it wasn't quite so sweet, he relocated to Chelem, a municipality of Progreso. Near the end of the COVID-19 pandemic, by a stroke of luck, he arrived in Puerto Morelos, Quintana Roo, where he managed three moves in a single year within the same charming town.",
     "close": "to be continued...",
-  "timeline": {
-    "heading": "CURRENT STATUS",
-    "date": "TODAY · 2026",
-    "acting": "ACTING",
-    "directing": "DIRECTING",
-    "dramaturgy": "DRAMATURGY",
-    "pedagogy": "PEDAGOGY",
-    "salsa": "SALSA",
-    "web": "WEB DEVELOPMENT",
-    "music": "MUSIC",
-    "present": "ACTIVE",
-    "trying": "STILL TRYING"
-},
-  "cta": "MORE ABOUT ME →"
+    "timeline": {
+      "heading": "CURRENT STATUS",
+      "date": "TODAY · 2026",
+      "acting": "ACTING",
+      "directing": "DIRECTING",
+      "dramaturgy": "PLAYWRITING",
+      "pedagogy": "PEDAGOGY",
+      "salsa": "SALSA",
+      "web": "WEB DEVELOPMENT",
+      "music": "MUSIC",
+      "present": "ACTIVE",
+      "trying": "STILL TRYING"
+    },
+    "cta": "MORE ABOUT ME →"
   },
   "contactCTA": {
-  "eyebrow": "CONTACT & COLLABORATION",
-  "titleLine1": "SHALL WE MAKE ",
-  "titleLine2": "SOMETHING TOGETHER?",
-  "subtitle": "Theatre, workshops, dance, code, or some hard-to-classify idea.",
-  "cta": "LET'S TALK →",
-  "disclaimer": "For musical proposals: please attach informed consent."
-},
-"about": {
-  "backHome": "← BACK HOME",
-  "continue": "To be continued...",
-  "eyebrow": "TRAJECTORY",
-  "title": "WHAT HAS HAPPENED SO FAR",
-  "intro": "A selection of work, processes, and professional accidents.",
-
-  "disciplines": {
-    "acting": {
-      "title": "ACTING",
-      "imageAlt": "Josué Cabrera during a stage performance",
-      "description": "Theatre actor with experience in different stage creation processes.",
-      "items": {
-        "1": {
-          "year": "YEAR",
-          "text": "Relevant project, production, or experience."
-        },
-        "2": {
-          "year": "YEAR",
-          "text": "Relevant project, production, or experience."
-        },
-        "3": {
-          "year": "YEAR",
-          "text": "Relevant project, production, or experience."
+    "eyebrow": "CONTACT & COLLABORATION",
+    "titleLine1": "SHALL WE MAKE",
+    "titleLine2": "SOMETHING TOGETHER?",
+    "subtitle": "Theatre, workshops, dance, code, or an idea that's hard to classify.",
+    "cta": "LET'S TALK →",
+    "disclaimer": "For musical proposals: please attach informed consent."
+  },
+  "about": {
+    "backHome": "← BACK TO HOME",
+    "continue": "Let's continue...",
+    "eyebrow": "TRAJECTORY",
+    "title": "WHAT HAS HAPPENED SO FAR",
+    "text": "I studied at UNAM's Faculty of Philosophy and Letters, in the Dramatic Literature and Theatre program. Alongside my studies, I became interested in and trained in the various disciplines I've shared with you... and the ones still to come...",
+    "text1": "I'll tell you later about my life in gastronomy, my time driving for UBER, and a few other things.",
+    "intro": "Here is a more detailed selection of my work, processes, and professional accidents.",
+    "disciplines": {
+      "acting": {
+        "title": "ACTING",
+        "imageAlt": "Josué Cabrera durante un trabajo escénico",
+        "description": "Actor with more than 15 years of experience.",
+        "items": {
+          "1": {
+            "year": "2007–2012",
+            "text": "Pique Repique y Capote Teatro · Founding member and actor in Las preciosas ridículas, Las mujeres sabias, Escuela de mujeres y Sganarelle o el cornudo imaginario."
+          },
+          "2": {
+            "year": "2012–2019",
+            "text": "TeatroSinParedes · Teatro Fórum en Contra Ellas, Por el trabajo, ¿Somos el cambio? y La Línea, with work across several states in Mexico."
+          },
+          "3": {
+            "year": "2016",
+            "text": "Los Náufragos, de Guillermo León · Dir. David Psalmon. Performances in Mexico and Festival AlgoImagen, San José, Costa Rica."
+          },
+          "4": {
+            "year": "2016–2020",
+            "text": "Okanjore · Co-written with Ángel Rubio. Performances in Mexico, Colombia, and Argentina."
+          },
+          "5": {
+            "year": "2017–2019",
+            "text": "Raíz, Raíz 2.0 y Animalia · Written and directed by Diego Álvarez Robledo."
+          },
+          "6": {
+            "year": "2019–2020",
+            "text": "Esperando a Godot, de Samuel Beckett · Dir. Izmir Gallardo Oliva. Mérida, Yucatán."
+          },
+          "7": {
+            "year": "2017–2020",
+            "text": "Screen work in Rachas Rotas, La Casa de las Flores, BRONCO: La serie, Territorio y LAIF."
+          }
+        }
+      },
+      "directing": {
+        "title": "DIRECTING",
+        "imageAlt": "Josué Cabrera durante un proceso de dirección escénica",
+        "description": "Direction of stage processes that engage with improvisation, Forum Theatre, and collective creation.",
+        "items": {
+          "1": {
+            "year": "2022",
+            "text": "Tlaloques, extranjeros y otros mensajeros · Direction and playwriting. Performances in Yucatán and Quintana Roo."
+          },
+          "2": {
+            "year": "2024",
+            "text": "Impro al vacío · Theatre improvisation performance created in Puerto Morelos, Quintana Roo."
+          },
+          "3": {
+            "year": "2025–2026",
+            "text": "Es lo que nos toca ¿no? · Direction and playwriting de una puesta de Teatro Fórum, coproducción de Los de Allá y FARO Cancún."
+          },
+          "4": {
+            "year": "2026",
+            "text": "INESTABLES · Direction of an improv show presented at FARO Cancún."
+          }
+        }
+      },
+      "dramaturgy": {
+        "title": "PLAYWRITING",
+        "imageAlt": "Josué Cabrera durante un proceso de escritura y creación dramatúrgica",
+        "description": "Playwriting and dramaturgical creation connected to memory, territory, and collective processes.",
+        "items": {
+          "1": {
+            "year": "—",
+            "text": "Tlaloques, extranjeros y otros mensajeros."
+          },
+          "2": {
+            "year": "—",
+            "text": "Fractura."
+          },
+          "3": {
+            "year": "—",
+            "text": "Donde aún se sirve el pan."
+          },
+          "4": {
+            "year": "—",
+            "text": "Gordo Xtreaming."
+          },
+          "5": {
+            "year": "—",
+            "text": "Es lo que nos toca ¿no?"
+          },
+          "6": {
+            "year": "—",
+            "text": "Sobre/vivir al paraíso."
+          }
+        }
+      },
+      "pedagogy": {
+        "title": "PEDAGOGY",
+        "imageAlt": "Josué Cabrera durante una actividad de pedagogía teatral",
+        "description": "Teaching and facilitation of learning processes through theatre, improvisation, play, collective creation, and community work.",
+        "items": {
+          "1": {
+            "year": "2008–2009",
+            "text": "Improvisation workshops with Colectivo Minotauros para la Universidad Autónoma de Guadalajara, UNAM e Instituto de Cultura de Durango."
+          },
+          "2": {
+            "year": "2013–2018",
+            "text": "TeatroSinParedes · Forum Theatre workshops in communities across Mexico."
+          },
+          "3": {
+            "year": "2016–2019",
+            "text": "Forum Theatre workshops in La Habana, Ixcateopan, tutelares para menores infractores y Reclusorio Norte."
+          },
+          "4": {
+            "year": "2021–2023",
+            "text": "Artistic facilitation in the women's section of CERESO de Cancún, Quintana Roo."
+          },
+          "5": {
+            "year": "2022",
+            "text": "Workshop for children in Chelem, Progreso, Yucatán."
+          },
+          "6": {
+            "year": "2023–2024",
+            "text": "Ongoing theatre improvisation workshop in Puerto Morelos, Quintana Roo."
+          },
+          "7": {
+            "year": "2024–2025",
+            "text": "Rueda de Conocimientos · Forum Theatre, theatre improvisation, and strategies for community-based processes within FARO del Bienestar, Cancún."
+          }
+        }
+      },
+      "dance": {
+        "title": "CASINO · CUBAN SALSA",
+        "imageAlt": "Josué Cabrera bailando Casino y salsa cubana",
+        "description": "Teaching, practice, and teacher training in Casino, with a focus on rhythm, communication, the body, and dance as a space of freedom.",
+        "items": {
+          "1": {
+            "year": "2014–ACT.",
+            "text": "Casino (Cuban Salsa) classes in Ciudad de México, Yucatán y Quintana Roo."
+          },
+          "2": {
+            "year": "2017–2019",
+            "text": "Teacher training for the academies Salsafición y Salsa Dance Condesa, Ciudad de México."
+          },
+          "3": {
+            "year": "2023",
+            "text": "Cuerpos diversos, baile en libertad · Peace circle with Casino dancers from Puerto Morelos."
+          },
+          "4": {
+            "year": "2024",
+            "text": "Casino teacher training with Colectivo Cultural Los de Allá A.C. en Puerto Morelos."
+          },
+          "5": {
+            "year": "2024–2025",
+            "text": "Casino teacher training within the project Rueda de Conocimientos, FARO del Bienestar, Cancún."
+          }
+        }
+      },
+      "culturalManagement": {
+        "title": "CULTURAL MANAGEMENT",
+        "imageAlt": "Josué Cabrera durante un proceso cultural y comunitario",
+        "description": "Coordination, production, and facilitation of cultural, community, and editorial projects in different contexts and territories. Founding member of Colectivo Cultural Los de Allá A.C.",
+        "items": {
+          "1": {
+            "year": "2008",
+            "text": "Organizing committee of the Festival Internacional de Impro en México, FIIMEX."
+          },
+          "2": {
+            "year": "2012–2014",
+            "text": "Assistance and coordination of Foro Itinerante El Blanquito y Foro A Poco No, Sistema de Teatros de la Ciudad de México."
+          },
+          "3": {
+            "year": "2012–2014",
+            "text": "Logistics for the Festival Infantil y Juvenil y Teatro en Plazas Públicas, Teatro en tu barrio."
+          },
+          "4": {
+            "year": "2021–2022",
+            "text": "Text selection committee for Palabras Insurrectas: Detonar los muros con tinta negra. Dramaturgias escritas desde el encierro."
+          },
+          "5": {
+            "year": "2021–2022",
+            "text": "Coordination of artistic facilitation at CERESO de Cancún and text selection for the fanzine Aviones de papel que atravesaron el mar."
+          },
+          "6": {
+            "year": "2021–2022",
+            "text": "Sin Frontera: Acciones artísticas contra la violencia · Coordination of the Quintana Roo branch."
+          },
+          "7": {
+            "year": "2022",
+            "text": "Coordination of the Photographic Memorial created with the fishing community of Chelem, Yucatán."
+          },
+          "8": {
+            "year": "2024–2025",
+            "text": "Coordination of the work plan Rueda de Conocimientos, a project supported by FARO del Bienestar en Quintana Roo."
+          }
+        }
+      },
+      "web": {
+        "title": "WEB DEVELOPMENT",
+        "imageAlt": "Josué Cabrera trabajando en desarrollo web",
+        "description": "Design and development of websites, platforms, and digital tools where code, structure, and identity are part of the same process.",
+        "items": {
+          "1": {
+            "year": "WEB",
+            "text": "Websites and digital identities."
+          },
+          "2": {
+            "year": "APP",
+            "text": "Apps and cross-platform experiences."
+          },
+          "3": {
+            "year": "DEV",
+            "text": "Authentication, user management, and private tools."
+          }
+        }
+      },
+      "music": {
+        "title": "FRUSTRATED MUSICIAN",
+        "imageAlt": "Josué Cabrera en su relación con la música",
+        "description": "A persistent relationship with music that appears, disappears, and returns across other creative processes.",
+        "items": {
+          "1": {
+            "year": "—",
+            "text": "Music, rhythm, and experimentation."
+          },
+          "2": {
+            "year": "—",
+            "text": "Crossovers between music, performance, and creation."
+          },
+          "3": {
+            "year": "—",
+            "text": "Frustrated, but still here."
+          }
         }
       }
     },
-
-    "directing": {
-      "title": "DIRECTING",
-      "imageAlt": "Josué Cabrera during a stage directing process",
-      "description": "Direction and guidance of stage creation processes.",
-      "items": {
-        "1": {
-          "year": "YEAR",
-          "text": "Relevant project or production."
-        },
-        "2": {
-          "year": "YEAR",
-          "text": "Relevant project or production."
-        },
-        "3": {
-          "year": "YEAR",
-          "text": "Relevant project or production."
-        }
-      }
-    },
-
-    "dramaturgy": {
-      "title": "DRAMATURGY",
-      "imageAlt": "Josué Cabrera during a writing and dramaturgical creation process",
-      "description": "Writing, adaptation, and dramaturgical development for the stage.",
-      "items": {
-        "1": {
-          "year": "YEAR",
-          "text": "Relevant text, production, or creative process."
-        },
-        "2": {
-          "year": "YEAR",
-          "text": "Relevant text, production, or creative process."
-        },
-        "3": {
-          "year": "YEAR",
-          "text": "Relevant text, production, or creative process."
-        }
-      }
-    },
-
-    "pedagogy": {
-      "title": "PEDAGOGY",
-      "imageAlt": "Josué Cabrera during a theatre teaching activity",
-      "description": "Theatre teaching and learning processes rooted in the body, play, and the stage.",
-      "items": {
-        "1": {
-          "year": "YEAR",
-          "text": "Workshop, institution, or teaching experience."
-        },
-        "2": {
-          "year": "YEAR",
-          "text": "Workshop, institution, or teaching experience."
-        },
-        "3": {
-          "year": "YEAR",
-          "text": "Workshop, institution, or teaching experience."
-        }
-      }
-    },
-
-    "dance": {
-      "title": "POPULAR DANCE",
-      "imageAlt": "Josué Cabrera dancing Cuban salsa",
-      "description": "Teaching and practice of popular dance, with a particular focus on Cuban salsa.",
-      "items": {
-        "1": {
-          "year": "YEAR",
-          "text": "Relevant project, school, or experience."
-        },
-        "2": {
-          "year": "YEAR",
-          "text": "Relevant project, school, or experience."
-        },
-        "3": {
-          "year": "YEAR",
-          "text": "Relevant project, school, or experience."
-        }
-      }
-    },
-
     "web": {
       "title": "WEB DEVELOPMENT",
-      "imageAlt": "Web design and development work by Josué Cabrera",
-      "description": "Design and development of web experiences combining structure, interface, and visual narrative.",
+      "imageAlt": "Trabajo de diseño y desarrollo web de Josué Cabrera",
+      "description": "Diseño y desarrollo de experiencias web, combinando estructura, interfaz y narrativa visual.",
       "items": {
         "1": {
-          "year": "YEAR",
-          "text": "Relevant web project."
+          "year": "AÑO",
+          "text": "Proyecto web relevante."
         },
         "2": {
-          "year": "YEAR",
-          "text": "Relevant web project."
+          "year": "AÑO",
+          "text": "Proyecto web relevante."
         },
         "3": {
-          "year": "YEAR",
-          "text": "Relevant web project."
+          "year": "AÑO",
+          "text": "Proyecto web relevante."
         }
       }
     },
-
     "music": {
       "title": "MUSIC",
-      "imageAlt": "Josué Cabrera during one of his persistent musical attempts",
-      "description": "A long, complicated, and surprisingly persistent relationship.",
+      "imageAlt": "Josué Cabrera en uno de sus persistentes intentos musicales",
+      "description": "Una relación larga, complicada y sorprendentemente persistente.",
       "items": {
         "1": {
           "year": "∞",
-          "text": "Learning."
+          "text": "Aprender."
         },
         "2": {
           "year": "∞",
-          "text": "Practising."
+          "text": "Practicar."
         },
         "3": {
-          "year": "TODAY",
-          "text": "Still trying."
+          "year": "HOY",
+          "text": "Seguimos intentando."
         }
       }
     }
-  }
-},
+  },
+  "scene": {
+    "hero": {
+      "eyebrow": "SCENE",
+      "acting": "ACT.",
+      "directing": "DIRECT.",
+      "writing": "WRITE.",
+      "aside": "Sometimes in that order.",
+      "imageAlt": "Josué Cabrera en escena"
+    },
+    "statement": {
+      "eyebrow": "THEATRE",
+      "text": "Theatre has been the place where I've spent a good part of my life making, failing, trying, learning, and starting over. It wouldn't be this way if it weren't one of the driving forces in my life."
+    },
+    "disciplines": {
+      "eyebrow": "DIFFERENT WAYS OF BEING ON STAGE",
+      "title": "WHAT MATTERS IS THAT THE ENCOUNTER HAPPENS.",
+      "acting": {
+        "title": "ACTING",
+        "subtitle": "Here and now.",
+        "description": "My first contact with theatre was through acting. I started in workshops wanting to become an actor, though what I really wanted was to be a mime and clown. Then, you know, life led me down the wrong path —or maybe not. My nature kept asking me to diversify. I don't know whether that's good or bad; it's simply how it is... so I'm always open to whatever I'm invited to do...",
+        "imageAlt": "Josué Cabrera durante un trabajo como actor"
+      },
+      "directing": {
+        "title": "DIRECTING",
+        "subtitle": "Looking from the outside. Though never entirely.",
+        "description": "After being far from home and from the people I had always teamed up with, or who used to invite me into their projects, I found myself needing to experiment, mess things up, and make discoveries from this complex role.",
+        "imageAlt": "Josué Cabrera. Dirección de Tlaloques, extranjeros y otros mensajeros"
+      },
+      "dramaturgy": {
+        "title": "PLAYWRITING",
+        "subtitle": "Words get stuck in my throat.",
+        "description": "Putting what I feel onto paper is a relatively recent process for me. Even though I had written before, I had never allowed myself to do it in a more formal, structured, and consistent way. During the pandemic I began my first text that would make it to the stage, initially by intuition. Later I felt the need to continue these processes, so I began taking workshops guided by admirable people whom I am fortunate to call my teachers.",
+        "imageAlt": "Proceso de escritura y dramaturgia de Josué Cabrera"
+      }
+    },
+    "actingProjects": {
+      "eyebrow": "ACTING WORK",
+      "title": "SOME OF THE PRODUCTIONS I'VE PERFORMED IN",
+      "items": {
+        "naufragos": {
+          "title": "LOS NÁUFRAGOS",
+          "description": "Text by Guillermo León directed by David Psalmon. El montaje tuvo funciones en distintos espacios y festivales de México y Costa Rica.",
+          "credits": "Casa del Lago · Foro de las Artes del CENART · Festival Fringe, San Miguel de Allende · León · Querétaro · Festival AlgoImagen, San José, Costa Rica",
+          "imageAlt": "Josué Cabrera en Los Náufragos"
+        },
+        "okanjore": {
+          "title": "OKANJORE",
+          "description": "Espectáculo unipersonal. Co-written with Ángel Rubio, directed by este último.",
+          "credits": "Performances at venues across Mexico, public squares, prisons, and juvenile detention centers · Colombia · Argentina",
+          "imageAlt": "Josué Cabrera en Okanjore"
+        },
+        "teatroForum": {
+          "title": "TEATRO Foro",
+          "description": "Work developed with Colectivo TeatroSinParedes using the Forum Theatre technique, with projects actively presented across much of Mexico.",
+          "credits": "Contra Ellas · Por el trabajo · ¿Somos el cambio? · La Línea, Fórum sobre migración · Texts by Edgar Chías",
+          "imageAlt": "Josué Cabrera en un proyecto de Teatro Fórum del Colectivo TeatroSinParedes"
+        },
+        "raiz": {
+          "title": "RAÍZ",
+          "description": "Stage project written and directed by Diego Álvarez Robledo.",
+          "credits": "Autoría y dirección: Diego Álvarez Robledo. Performances at CENART, Museo Universitario del Chopo, Teatro Julio Castillo, among others.",
+          "imageAlt": "Josué Cabrera en Raíz"
+        }
+      }
+    },
+    "screen": {
+      "eyebrow": "AND SOMETIMES...",
+      "title": "SCREEN.",
+      "description": "A few appearances in front of a camera. A feature film and some bit parts.",
+      "reel": {
+        "eyebrow": "VIDEO",
+        "title": "DEMO REEL",
+        "type": "ACTING · FILM / TV",
+        "caption": "Selection of on-camera work"
+      },
+      "types": {
+        "film": "FILM",
+        "series": "SERIES"
+      },
+      "items": {
+        "rachasRotas": {
+          "title": "RACHAS ROTAS",
+          "credits": "Written and directed by Arturo Núñez"
+        },
+        "casaFlores": {
+          "title": "LA CASA DE LAS FLORES",
+          "credits": "Direction: Manolo Caro"
+        },
+        "bronco": {
+          "title": "BRONCO: LA SERIE",
+          "credits": "Direction: Max Zunino y Conrado Martínez"
+        },
+        "territorio": {
+          "title": "TERRITORIO",
+          "credits": "Direction: Andrés Clariond"
+        },
+        "laif": {
+          "title": "LAIF",
+          "credits": "Dir. Luis Arenas"
+        }
+      },
+      "imageAlt": "Trabajos de Josué Cabrera para cine y series"
+    },
+    "offstage": {
+      "eyebrow": "INTERMISSION",
+      "text": "Let's stop here because I don't want to overwhelm you...",
+      "text1": "any more...",
+      "text2": "For now.",
+      "close": "More projects keep coming."
+    },
+    "cta": {
+      "eyebrow": "COLLABORATIONS",
+      "title": "DO YOU HAVE A PERFORMANCE PROJECT?",
+      "button": "LET'S TALK →"
+    },
+    "directingProjects": {
+      "eyebrow": "SELECTION",
+      "title": "SOME DIRECTING PROJECTS.",
+      "items": {
+        "esLoQueNosToca": {
+          "title": "ES LO QUE NOS TOCA ¿NO?",
+          "description": "Stage production developed a partir de la técniaca de Teatro Foro. Co-production by Colectivo Cultural Los de Allá y la FARO de Cancún.",
+          "credits": "Direction and playwriting: Josué Cabrera · Colectivo Cultural Los de Allá · FARO Cancún · Secretaría del Bienestar de Quintana Roo",
+          "imageAlt": "Es lo que nos toca ¿no?, dirección de Josué Cabrera"
+        },
+        "inestables": {
+          "title": "INESTABLES",
+          "description": "Theatre improvisation show directed by Josué Cabrera, presented at la FARO Cancún.",
+          "credits": "Direction: Josué Cabrera · FARO Cancún · March 2026",
+          "imageAlt": "INESTABLES, show de improvisación dirigido por Josué Cabrera"
+        },
+        "vacio": {
+          "title": "IMPRO AL VACÍO",
+          "description": "Theatre improvisation performance created in Puerto Morelos, Quintana Roo.",
+          "credits": "Direction: Josué Cabrera · Puerto Morelos, Quintana Roo",
+          "imageAlt": "Impro al vacío, espectáculo de improvisación teatral"
+        },
+        "tlaloques": {
+          "title": "TLALOQUES, EXTRANJEROS Y OTROS MENSAJEROS",
+          "description": "A project addressing xenophobia, migration, and the search for a place to put down roots. Performances in Yucatán and Quintana Roo.",
+          "credits": "Direction and playwriting: Josué Cabrera · Production: Colectivo Arte Sin Frontera · Yucatán · Quintana Roo",
+          "imageAlt": "Tlaloques, extranjeros y otros mensajeros, dirección de Josué Cabrera"
+        }
+      }
+    },
+    "dramaturgyProjects": {
+      "eyebrow": "TEXTS",
+      "title": "SOME THINGS I WROTE SO THEY COULD HAPPEN.",
+      "author": "Playwriting · Josué Cabrera",
+      "read": "Read excerpt",
+      "items": {
+        "tlaloques": {
+          "title": "Tlaloques, extranjeros y otros mensajeros"
+        },
+        "fractura": {
+          "title": "Fractura"
+        },
+        "dondeAunSeSirveElPan": {
+          "title": "Donde aún se sirve el pan"
+        },
+        "gordoXtreaming": {
+          "title": "Gordo Xtreaming"
+        }
+      },
+      "reader": {
+        "fragment": "Excerpt",
+        "label": "Theatrical text · Excerpt",
+        "author": "Written by Josué Cabrera",
+        "close": "Close",
+        "comingSoon": "Excerpt coming soon",
+        "end": "End of excerpt",
+        "copyright": "© Josué Cabrera · All rights reserved. This excerpt is published exclusively for reading."
+      },
+      "cta": {
+        "eyebrow": "WANT TO KEEP READING?",
+        "title": "THE PLAY DOESN'T END HERE.",
+        "description": "If you would like to read a complete play, discover other texts, or are interested in staging one of them, get in touch.",
+        "button": "Request text"
+      },
+      "copyright": "© Josué Cabrera · All texts and excerpts published on this site are the property of their author. All rights reserved."
+    }
+  },
+  "pedagogy": {
+    "hero": {
+      "eyebrow": "PEDAGOGY",
+      "line1": "LEARN.",
+      "line2": "SHARE.",
+      "line3": "MEET.",
+      "description": "I'm not interested in answers. I'm interested in creating spaces where we can ask better questions.",
+      "imageAlt": "Josué Cabrera durante un proceso pedagógico"
+    },
+    "manifesto": {
+      "eyebrow": "A WAY OF UNDERSTANDING TEACHING",
+      "text": "My pedagogical practice comes from theatre, improvisation, and dance. I'm interested in creating spaces where learning is not only about acquiring a technique, but about listening, playing, making mistakes, building with others, and finding one's own tools."
+    },
+    "forum": {
+      "eyebrow": "THEATRE OF THE OPPRESSED",
+      "title": "FORUM THEATRE",
+      "subtitle": "The stage as a space to rehearse other possibilities.",
+      "description": "Forum Theatre allows us to look at a conflict, intervene in it, and collectively build questions about our reality. It is a practice in which those watching can also step onto the stage and propose other paths.",
+      "imageAlt": "Forum Theatre workshop"
+    },
+    "improv": {
+      "eyebrow": "THEATRE IMPROVISATION",
+      "title": "NOT KNOWING WHAT WILL HAPPEN CAN BE TRAINED TOO.",
+      "description": "Improvisation as a theatrical, pedagogical, and collective tool: listening, accepting, reacting, proposing, and building with what is happening here and now.",
+      "imageAlt": "Theatre improvisation workshop"
+    },
+    "casino": {
+      "eyebrow": "CASINO · CUBAN SALSA",
+      "title": "DANCE.",
+      "quote": "Dancing is also a way of having a conversation.",
+      "description": "Since 2014, I have taught Casino —Cuban Salsa— in different spaces and training processes across Mexico City, Yucatán, and Quintana Roo.",
+      "since": "TEACHING CASINO SINCE 2014",
+      "imageAlt": "Casino and Cuban Salsa class"
+    },
+    "training": {
+      "eyebrow": "TEACHER TRAINING",
+      "title": "TEACHING HOW TO TEACH.",
+      "description": "Supporting teacher training means going beyond teaching steps: observing how a technique is transmitted, how a process is accompanied, and how tools are built so that each teacher can find their own way of teaching."
+    },
+    "community": {
+      "eyebrow": "TERRITORY / COMMUNITY",
+      "title": "NOT EVERY SPACE ASKS FOR THE SAME THING.",
+      "description": "Universities, communities, children, spaces of incarceration, and cultural projects. Each context transforms the tools and also the way a process is accompanied.",
+      "imageAlt": "Pedagogical and community process"
+    },
+    "cta": {
+      "eyebrow": "WORKSHOPS · PROCESSES · COLLABORATIONS",
+      "title": "SHALL WE LEARN SOMETHING",
+      "titleAccent": "TOGETHER?",
+      "description": "Workshops, training processes, and projects where theatre, the body, and encounter can become tools.",
+      "button": "PROPOSE A WORKSHOP"
+    }
+  },
+  "code": {
+    "hero": {
+      "eyebrow": "WEB DEVELOPMENT",
+      "line1": "ANOTHER WAY",
+      "line2": "TO CREATE.",
+      "description": "I came to web development from an unexpected place. Today I also build digital experiences: websites with identity, useful tools, and projects where design and code need to understand each other.",
+      "imageAlt": "Web development and creative process"
+    },
+    "manifesto": {
+      "eyebrow": "CODE AND CRAFT",
+      "text": "Programming also became a way of composing: organizing, testing, making mistakes, taking things apart, and rebuilding until something works."
+    },
+    "projects": {
+      "eyebrow": "SELECTED PROJECTS",
+      "title": "WHAT I'VE BUILT",
+      "description": "Websites, platforms, and digital tools built around the specific needs of each project.",
+      "categories": "WEB · APPS · PLATFORMS · DIGITAL IDENTITY",
+      "view": "VIEW PROJECT",
+      "didascalia": {
+        "year": "2025-2026",
+        "type": "ENTREPRENEURSHIP · WEB · PRIVATE PLATFORM",
+        "title": "DIDASCALIADEV",
+        "description": "My own web-development venture. A site combining portfolio, services, and private platforms with authentication, user management, and content based on access levels.",
+        "imageAlt": "Website for DidascaliaDev"
+      },
+      "rueda": {
+        "format": "WEB + APP",
+        "type": "CULTURE · COMMUNITY · WEB + MOBILE APP",
+        "title": "CULTURAL COLLECTIVE",
+        "titleAccent": "LOS DE ALLÁ",
+        "description": "A digital ecosystem developed for our cultural collective: a web presence and the Rueda de Conocimientos mobile app, which contains supplementary class materials.",
+        "webImageAlt": "Website Los de allá",
+        "appImageAlt": "Mobile app for Rueda de Conocimientos"
+      },
+      "mano": {
+        "format": "WEB + APP",
+        "type": "WELLNESS · WEB + MOBILE APP",
+        "title": "MANO",
+        "titleAccent": "ENTONADA",
+        "description": "Development of a digital experience available on the web and as a mobile app, designed to organize content and support users across different devices.",
+        "webImageAlt": "Website for Mano Entonada",
+        "appImageAlt": "Mobile app for Mano Entonada"
+      },
+      "amplia": {
+        "format": "WEB",
+        "type": "WELLNESS · DIGITAL IDENTITY · WEB",
+        "title": "AMPLIA",
+        "titleAccent": "CONSCIENCIA",
+        "description": "Development of a web presence built around the project's identity, content, and specific needs.",
+        "imageAlt": "Website for Amplia Consciencia"
+      },
+      "mezcal": {
+        "format": "WEB",
+        "type": "PRODUCT · BRAND · WEB EXPERIENCE",
+        "title": "MEZCAL",
+        "titleAccent": "13 DENERO",
+        "description": "A digital presence for a mezcal brand, bringing the product's identity into a clear, visual web experience.",
+        "imageAlt": "Website for Mezcal 13 DENERO"
+      },
+      "gye": {
+        "format": "WEB",
+        "type": "MUSIC · MUSIC THERAPY · LUTHERIE",
+        "title": "GYE ACOSTA",
+        "description": "A bilingual website bringing together different areas of the same practice: music, composition, music therapy, and lutherie.",
+        "imageAlt": "Website for Gye Acosta"
+      }
+    },
+    "capabilities": {
+      "eyebrow": "BEYOND WEBSITES",
+      "titleLine1": "FROM THE WEBSITE",
+      "titleLine2": "TO THE TOOL.",
+      "description": "Not everything ends with a beautiful page. Sometimes a project needs users, private content, administration, multiple languages, or a complete application.",
+      "items": {
+        "interfaces": "INTERFACES",
+        "authentication": "AUTHENTICATION",
+        "users": "USER MANAGEMENT",
+        "multilingual": "MULTILINGUAL EXPERIENCES",
+        "apps": "WEB APPS"
+      }
+    },
+    "process": {
+      "eyebrow": "PROCESS",
+      "title": "HOW I WORK",
+      "listen": {
+        "title": "LISTEN",
+        "text": "Understand what the project actually needs before opening the editor."
+      },
+      "shape": {
+        "title": "SHAPE IT",
+        "text": "Think through architecture, content, navigation, and an identity that makes sense."
+      },
+      "build": {
+        "title": "BUILD",
+        "text": "Design and code move forward together. Test, break, fix, and test again."
+      },
+      "deliver": {
+        "title": "DELIVER",
+        "text": "Build something that not only looks good, but can be used and continue to grow."
+      }
+    },
+    "tools": {
+      "eyebrow": "CURRENTLY",
+      "title": "TOOLS",
+      "description": "Tools change. What matters is still knowing what we want to build with them."
+    },
+    "cta": {
+      "eyebrow": "WEBSITES · APPS · IDEAS",
+      "title": "DO YOU HAVE SOMETHING",
+      "titleAccent": "TO BUILD?",
+      "description": "If you have a project and still don't know exactly what form it should take, we can start there.",
+      "button": "TELL ME ABOUT THE PROJECT"
+    }
+  },
   "contact": {
-    "backHome": "← BACK HOME",
-    "title": "CONTACT",
-    "subtitle": "Theatre, workshops, dance, or web projects.",
-    "description": "Have a proposal or interested in collaborating on a project?",
-    "emailLabel": "EMAIL READY",
-    "musicNote": "For musical proposals: please attach informed consent."
+    "backHome": "← BACK TO HOME",
+    "title": "LET'S TALK.",
+    "description": "If you'd like to propose a project, collaboration, workshop, play, website, or simply start a conversation, send me a message here.",
+    "emailLabel": "OR EMAIL ME DIRECTLY",
+    "musicNote": "I also accept invitations to play music, even if I regret it later.",
+    "form": {
+      "eyebrow": "CONTACT",
+      "name": "NAME",
+      "namePlaceholder": "Your name",
+      "email": "EMAIL",
+      "emailPlaceholder": "tu@correo.com",
+      "subject": "SUBJECT",
+      "subjectPlaceholder": "What shall we talk about?",
+      "message": "MESSAGE",
+      "messagePlaceholder": "Tell me...",
+      "submit": "SEND MESSAGE",
+      "sending": "SENDING...",
+      "success": "MESSAGE SENT. THANK YOU.",
+      "error": "COULDN'T SEND THE MESSAGE. PLEASE TRY AGAIN."
+    }
   },
   "footer": {
     "rights": "All rights reserved."
   },
   "placeholders": {
-    "scenePageTitle": "STAGE",
+    "scenePageTitle": "SCENE",
     "pedagogyPageTitle": "PEDAGOGY",
-    "bodyPageTitle": "BODY & SALSA",
     "codePageTitle": "WEB DEVELOPMENT",
     "aboutPageTitle": "ABOUT JOSUÉ CABRERA",
     "contactPageTitle": "CONTACT",
-    "backHome": "← BACK TO HOME",
-    "comingSoon": "Page under construction. This detailed section will be integrated soon."
+    "backHome": "← BACK HOME",
+    "comingSoon": "Page under construction. This detailed section will be added soon."
   }
 }

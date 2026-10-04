@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -9,21 +10,28 @@ const disciplines = [
   'dramaturgy',
   'pedagogy',
   'dance',
+  'culturalManagement',
   'web',
   'music',
 ] as const;
 
 type Discipline = (typeof disciplines)[number];
 
+interface DisciplineItem {
+  year: string;
+  text: string;
+}
+
 const disciplineImages: Record<Discipline | 'default', string> = {
-  default: '/images/about/josue-actual.jpg',
-  acting: '/images/about/acting.jpg',
-  directing: '/images/about/directing.jpg',
-  dramaturgy: '/images/about/dramaturgy.jpg',
-  pedagogy: '/images/about/pedagogy.jpg',
-  dance: '/images/about/dance.jpg',
-  web: '/images/about/web.jpg',
-  music: '/images/about/music.jpg',
+  default: '/images/about/josue-cabrera.webp',
+  acting: '/images/about/actuacion.webp',
+  directing: '/images/about/direccion.webp',
+  dramaturgy: '/images/about/dramaturgia.webp',
+  pedagogy: '/images/about/pedagogia.webp',
+  dance: '/images/about/casino.webp',
+  culturalManagement: '/images/about/gestion.webp',
+  web: '/images/about/hero.webp',
+  music: '/images/about/music.webp',
 };
 
 export const About = () => {
@@ -80,7 +88,9 @@ export const About = () => {
                   src={currentImage}
                   alt={
                     openDiscipline
-                      ? t(`about.disciplines.${openDiscipline}.imageAlt`)
+                      ? t(
+                          `about.disciplines.${openDiscipline}.imageAlt`,
+                        )
                       : t('about.imageAlt')
                   }
                   initial={{ opacity: 0, scale: 1.02 }}
@@ -94,18 +104,19 @@ export const About = () => {
                 />
               </AnimatePresence>
 
-              {/* Sutil integración con el fondo */}
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/30 via-transparent to-transparent" />
             </div>
 
             <div className="mt-4 flex items-center justify-between font-mono text-[10px] tracking-widest text-slate-500 uppercase sm:text-xs">
               <span>
                 {openDiscipline
-                  ? t(`about.disciplines.${openDiscipline}.title`)
-                  : t('about.imageCaption')}
+                  ? t(
+                      `about.disciplines.${openDiscipline}.title`,
+                    )
+                :""}
               </span>
 
-              <span>{t('about.imageDate')}</span>
+            
             </div>
           </motion.div>
 
@@ -125,6 +136,14 @@ export const About = () => {
                 {t('about.title')}
               </h1>
 
+              <p className="font-sans text-lg leading-relaxed text-amber-50/80 sm:text-xl">
+                {t('about.text')}
+              </p>
+
+              <p className="font-sans text-lg leading-relaxed text-amber-50/80 sm:text-xl">
+                {t('about.text1')}
+              </p>
+
               <p className="max-w-xl font-editorial text-xl text-slate-400 italic sm:text-2xl">
                 {t('about.intro')}
               </p>
@@ -136,6 +155,13 @@ export const About = () => {
                 const isOpen = openDiscipline === discipline;
                 const isMusic = discipline === 'music';
                 const number = String(index + 1).padStart(2, '0');
+
+                const items = t(
+                  `about.disciplines.${discipline}.items`,
+                  {
+                    returnObjects: true,
+                  },
+                ) as Record<string, DisciplineItem>;
 
                 return (
                   <div
@@ -159,7 +185,9 @@ export const About = () => {
                             : 'text-amber-50 group-hover:text-amber-500'
                         }`}
                       >
-                        {t(`about.disciplines.${discipline}.title`)}
+                        {t(
+                          `about.disciplines.${discipline}.title`,
+                        )}
                       </span>
 
                       <span
@@ -207,24 +235,22 @@ export const About = () => {
                             </p>
 
                             <div>
-                              {[1, 2, 3].map((item) => (
-                                <div
-                                  key={item}
-                                  className="grid grid-cols-[auto_1fr] gap-5 border-t border-slate-800/70 py-3 font-mono text-xs"
-                                >
-                                  <span className="text-amber-500">
-                                    {t(
-                                      `about.disciplines.${discipline}.items.${item}.year`,
-                                    )}
-                                  </span>
+                              {Object.entries(items).map(
+                                ([key, item]) => (
+                                  <div
+                                    key={key}
+                                    className="grid grid-cols-[90px_1fr] gap-5 border-t border-slate-800/70 py-3 font-mono text-xs"
+                                  >
+                                    <span className="text-amber-500">
+                                      {item.year}
+                                    </span>
 
-                                  <span className="text-slate-400">
-                                    {t(
-                                      `about.disciplines.${discipline}.items.${item}.text`,
-                                    )}
-                                  </span>
-                                </div>
-                              ))}
+                                    <span className="leading-relaxed text-slate-400">
+                                      {item.text}
+                                    </span>
+                                  </div>
+                                ),
+                              )}
                             </div>
                           </div>
                         </motion.div>

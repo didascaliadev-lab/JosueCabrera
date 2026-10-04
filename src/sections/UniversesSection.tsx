@@ -133,25 +133,25 @@ export const UniversesSection = () => {
 
             <h2 className="font-display text-5xl leading-[0.88] tracking-tight uppercase sm:text-7xl md:text-8xl">
               <span className="block">
-                {t('universes.body.quoteLine1')}
+                {t('universes.casino.quoteLine1')}
               </span>
 
               <span className="block text-amber-500">
-                {t('universes.body.quoteLine2')}
+                {t('universes.casino.quoteLine2')}
               </span>
 
               <span className="block">
-                {t('universes.body.quoteLine3')}
+                {t('universes.casino.quoteLine3')}
               </span>
             </h2>
 
             <p className="max-w-lg font-sans text-base leading-relaxed text-amber-50/80 sm:text-lg">
-              {t('universes.body.text')}
+              {t('universes.casino.text')}
             </p>
 
             <div className="pt-4">
-              <Link to="/body" className={linkClasses}>
-                {t('universes.body.cta')}
+              <Link to="/pedagogy#casino" className={linkClasses}>
+                {t('universes.casino.cta')}
               </Link>
             </div>
           </div>
