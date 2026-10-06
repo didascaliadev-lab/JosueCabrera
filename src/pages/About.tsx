@@ -1,6 +1,5 @@
-import { useState } from 'react';
-
 import { AnimatePresence, motion } from 'framer-motion';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -39,6 +38,32 @@ export const About = () => {
 
   const [openDiscipline, setOpenDiscipline] =
     useState<Discipline | null>(null);
+
+  const disciplineRefs = useRef<
+    Record<Discipline, HTMLDivElement | null>
+  >({
+    acting: null,
+    directing: null,
+    dramaturgy: null,
+    pedagogy: null,
+    dance: null,
+    culturalManagement: null,
+    web: null,
+    music: null,
+  });
+
+  useEffect(() => {
+    if (!openDiscipline) return;
+
+    const timeout = window.setTimeout(() => {
+      disciplineRefs.current[openDiscipline]?.scrollIntoView({
+        behavior: 'instant',
+        block: 'start',
+      });
+    }, 250);
+
+    return () => window.clearTimeout(timeout);
+  }, [openDiscipline]);
 
   const toggleDiscipline = (discipline: Discipline) => {
     setOpenDiscipline((current) =>
@@ -109,14 +134,11 @@ export const About = () => {
 
             <div className="mt-4 flex items-center justify-between font-mono text-[10px] tracking-widest text-slate-500 uppercase sm:text-xs">
               <span>
-                {openDiscipline
-                  ? t(
-                      `about.disciplines.${openDiscipline}.title`,
-                    )
-                :""}
+                {openDiscipline &&
+                  t(
+                    `about.disciplines.${openDiscipline}.title`,
+                  )}
               </span>
-
-            
             </div>
           </motion.div>
 
@@ -166,11 +188,17 @@ export const About = () => {
                 return (
                   <div
                     key={discipline}
-                    className="border-b border-slate-800"
+                    ref={(element) => {
+                      disciplineRefs.current[discipline] =
+                        element;
+                    }}
+                    className="scroll-mt-24 border-b border-slate-800"
                   >
                     <button
                       type="button"
-                      onClick={() => toggleDiscipline(discipline)}
+                      onClick={() =>
+                        toggleDiscipline(discipline)
+                      }
                       aria-expanded={isOpen}
                       className="group flex w-full items-center gap-4 py-5 text-left"
                     >
@@ -216,7 +244,7 @@ export const About = () => {
                             opacity: 0,
                           }}
                           transition={{
-                            duration: 0.4,
+                            duration: 0.25,
                             ease: [0.16, 1, 0.3, 1],
                           }}
                           className="overflow-hidden"

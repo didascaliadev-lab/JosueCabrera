@@ -1,16 +1,21 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import type { ChangeEvent, FormEvent } from 'react';
+
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
+import ReCAPTCHA from 'react-google-recaptcha';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 type FormStatus = 'idle' | 'sending' | 'success' | 'error';
 
 export const Contact = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const [status, setStatus] = useState<FormStatus>('idle');
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -20,25 +25,57 @@ export const Contact = () => {
   });
 
   const handleChange = (
-  event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-) => {
-  const { name, value } = event.target;
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
+    const { name, value } = event.target;
 
-  setFormData((current) => ({
-    ...current,
-    [name]: value,
-  }));
-};
+    setFormData((current) => ({
+      ...current,
+      [name]: value,
+    }));
+
+    if (status === 'success' || status === 'error') {
+      setStatus('idle');
+    }
+  };
+
+  const handleCaptchaChange = (token: string | null) => {
+    setCaptchaToken(token);
+
+    if (status === 'error') {
+      setStatus('idle');
+    }
+  };
+
+  const handleCaptchaExpired = () => {
+    setCaptchaToken(null);
+  };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    if (status === 'sending') return;
+   if (status === 'sending' || !captchaToken) return;
 
-    setStatus('sending');
+setStatus('sending');
 
-    try {
-      await emailjs.send(
+try {
+  const captchaResponse = await fetch('/api/verify-captcha', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      token: captchaToken,
+    }),
+  });
+
+  const captchaResult = await captchaResponse.json();
+
+          if (!captchaResponse.ok || !captchaResult.success) {
+            throw new Error('Captcha verification failed.');
+          }
+
+          await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
@@ -60,19 +97,25 @@ export const Contact = () => {
         subject: '',
         message: '',
       });
-  } catch (error) {
-  console.error('Error completo:', error);
 
-  if (
-    typeof error === 'object' &&
-    error !== null &&
-    'text' in error
-  ) {
-    console.error('EmailJS dice:', error.text);
-  }
+      recaptchaRef.current?.reset();
+      setCaptchaToken(null);
+    } catch (error) {
+      console.error('Error completo:', error);
 
-  setStatus('error');
-}
+      if (
+        typeof error === 'object' &&
+        error !== null &&
+        'text' in error
+      ) {
+        console.error('EmailJS dice:', error.text);
+      }
+
+      setStatus('error');
+
+      recaptchaRef.current?.reset();
+      setCaptchaToken(null);
+    }
   };
 
   const inputClasses =
@@ -98,8 +141,6 @@ export const Contact = () => {
           <h1 className="mt-8 font-display text-6xl leading-[0.88] tracking-tight uppercase sm:text-7xl md:text-8xl lg:text-9xl">
             {t('contact.title')}
           </h1>
-
-          
         </motion.div>
 
         {/* CONTACTO */}
@@ -218,12 +259,24 @@ export const Contact = () => {
                 />
               </label>
 
+              {/* CAPTCHA */}
+              <div className="mt-10">
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
+                  onChange={handleCaptchaChange}
+                  onExpired={handleCaptchaExpired}
+                  theme="dark"
+                  hl={i18n.language.startsWith('en') ? 'en' : 'es'}
+                />
+              </div>
+
               {/* ENVÍO */}
               <div className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
                 <button
                   type="submit"
-                  disabled={status === 'sending'}
-                  className="group inline-flex items-center gap-4 border-b border-amber-50/30 pb-2 font-mono text-xs tracking-[0.18em] uppercase transition-colors hover:border-amber-500 hover:text-amber-500 disabled:cursor-not-allowed disabled:opacity-50"
+                  disabled={status === 'sending' || !captchaToken}
+                  className="group inline-flex items-center gap-4 border-b border-amber-50/30 pb-2 font-mono text-xs tracking-[0.18em] uppercase transition-colors hover:border-amber-500 hover:text-amber-500 disabled:cursor-not-allowed disabled:opacity-40"
                 >
                   {status === 'sending'
                     ? t('contact.form.sending')

@@ -33,9 +33,9 @@ export const PageHero = ({
             className={`h-full w-full object-cover ${imageClassName}`}
           />
 
-          <div className="absolute inset-0 bg-slate-950/40 sm:bg-slate-950/30" />
+          <div className="absolute inset-0 bg-slate-950/20 sm:bg-slate-950/30" />
 
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/70 to-slate-950/20 sm:via-slate-950/50 sm:to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/50 to-slate-950/20 sm:via-slate-950/40 sm:to-transparent" />
 
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-950 to-transparent" />
         </div>

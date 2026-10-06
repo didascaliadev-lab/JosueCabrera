@@ -116,7 +116,7 @@
     "eyebrow": "TRAYECTORIA",
     "title": "LO QUE HA PASADO HASTA AHORA",
     "text":"Realicé mis estudios en la Facultad de Filosofía y Letras de la UNAM. La carrera que elegí lleva por nombre Literatura Dramatica y Teatro. A la par de estar estudiando me fui interesando y formando en las varias disciplinas que les he compartido...y las que faltan...",
-    "text1": "Ya después les cuento de mi vida en la gastronomía, mi paso por UBER y otras cositas más.",
+    "text1": "Ya después les cuento de mi vida en la gastronomía, la burocracia, mi paso por UBER y otras cositas más.",
     "intro": "Aquí una selección más detallada de mis trabajos, procesos y accidentes profesionales.",
   
     "disciplines": {
@@ -411,7 +411,7 @@
 
     "statement": {
       "eyebrow": "EL TEATRO",
-      "text": "El teatro ha sido el lugar donde he pasado buena parte de mi vida haciento, fracasando, intentando, aprendiendo y volviendo a empezar. Esto no sería así si no fuera parte de mis motores de vida."
+      "text": "El teatro ha sido el lugar donde he pasado buena parte de mi vida haciendo, fracasando, intentando, aprendiendo y volviendo a empezar. Esto no sería así si no fuera parte de mis motores de vida."
     },
 
     "disciplines": {
@@ -460,7 +460,7 @@
         },
 
         "teatroForum": {
-          "title": "TEATRO Foro",
+          "title": "TEATRO FORO",
           "description": "Trabajo desarrollado con el Colectivo TeatroSinParedes a partir de la técnica de Teatro Foro, con proyectos presentados de manera activa en gran parte de los estados del país.",
           "credits": "Contra Ellas · Por el trabajo · ¿Somos el cambio? · La Línea, Fórum sobre migración · Textos de Edgar Chías",
           "imageAlt": "Josué Cabrera en un proyecto de Teatro Fórum del Colectivo TeatroSinParedes"
@@ -564,8 +564,8 @@
 
         "tlaloques": {
           "title": "TLALOQUES, EXTRANJEROS Y OTROS MENSAJEROS",
-          "description": "Proyecto que aborda la xenofobia, la migración y la búsqueda de una lugar en el cual echar raíces. Presentaciones en Yucatán y Quintana Roo.",
-          "credits": "Dirección y dramaturgia: Josué Cabrera · Producción: Colectivo Arte Sin Frontera · Yucatán · Quintana Roo",
+          "description": "Proyecto que aborda la xenofobia, migración y  búsqueda de un lugar en el cual echar raíces. Presentaciones en Yucatán y Quintana Roo.",
+          "credits": "Dirección y dramaturgia: Josué Cabrera ·  Yucatán · Quintana Roo",
           "imageAlt": "Tlaloques, extranjeros y otros mensajeros, dirección de Josué Cabrera"
         }
       }

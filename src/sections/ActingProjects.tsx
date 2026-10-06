@@ -1,16 +1,30 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { Minus, Plus } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { actingProjects } from '../data/sceneProjects';
 
 export const ActingProjects = () => {
   const { t } = useTranslation();
 
-  const [openProject, setOpenProject] = useState<string | null>(
-    null,
-  );
+  const [openProject, setOpenProject] = useState<string | null>(null);
 
+  const projectRefs = useRef<Record<string, HTMLElement | null>>({});
+
+  useEffect(() => {
+  if (!openProject) return;
+
+  const timeout = window.setTimeout(() => {
+    projectRefs.current[openProject]?.scrollIntoView({
+      behavior: 'instant',
+      block: 'start',
+          });
+        }, 100);
+
+        return () => window.clearTimeout(timeout);
+      }, [openProject]);
+
+        
   const toggleProject = (projectId: string) => {
     setOpenProject((current) =>
       current === projectId ? null : projectId,
@@ -39,6 +53,9 @@ export const ActingProjects = () => {
           return (
             <motion.article
               key={project.id}
+              ref={(element) => {
+                projectRefs.current[project.id] = element;
+              }}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
@@ -46,7 +63,7 @@ export const ActingProjects = () => {
                 duration: 0.5,
                 delay: index * 0.05,
               }}
-              className="border-b border-slate-800"
+              className="scroll-mt-24 border-b border-slate-800"
             >
               {/* Cabecera desplegable */}
               <button
@@ -113,11 +130,11 @@ export const ActingProjects = () => {
                     }}
                     transition={{
                       height: {
-                        duration: 0.5,
+                        duration: 0.1,
                         ease: [0.22, 1, 0.36, 1],
                       },
                       opacity: {
-                        duration: 0.3,
+                        duration: 0.1,
                       },
                     }}
                     className="overflow-hidden"
@@ -169,22 +186,20 @@ export const ActingProjects = () => {
                       {/* Fotografías secundarias */}
                       {project.images.length > 1 && (
                         <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-6">
-                          {project.images
-                            .slice(1)
-                            .map((image) => (
-                              <div
-                                key={image}
-                                className="aspect-[4/3] overflow-hidden bg-slate-900"
-                              >
-                                <img
-                                  src={image}
-                                  alt={t(
-                                    `scene.actingProjects.items.${project.id}.imageAlt`,
-                                  )}
-                                  className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
-                                />
-                              </div>
-                            ))}
+                          {project.images.slice(1).map((image) => (
+                            <div
+                              key={image}
+                              className="aspect-[4/3] overflow-hidden bg-slate-900"
+                            >
+                              <img
+                                src={image}
+                                alt={t(
+                                  `scene.actingProjects.items.${project.id}.imageAlt`,
+                                )}
+                                className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+                              />
+                            </div>
+                          ))}
                         </div>
                       )}
                     </div>
