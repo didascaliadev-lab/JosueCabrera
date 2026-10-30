@@ -17,7 +17,7 @@ export const HeroSection = () => {
         className="absolute inset-0"
       >
         <img
-          src="/images/home/hero.png"
+          src="/images/home/hero.webp"
           alt="Josué Cabrera en escena"
           className="
             h-full w-full object-cover

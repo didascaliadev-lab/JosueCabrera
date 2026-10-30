@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+
+import { lazy, Suspense, useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -10,11 +11,37 @@ import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 
 import { Home } from './pages/Home';
-import { Scene } from './pages/Scene';
-import { Pedagogy } from './pages/Pedagogy';
-import { CodePage } from './pages/CodePage';
-import { About } from './pages/About';
-import { Contact } from './pages/Contact';
+
+// Carga diferida de páginas secundarias
+const Scene = lazy(() =>
+  import('./pages/Scene').then((module) => ({
+    default: module.Scene,
+  })),
+);
+
+const Pedagogy = lazy(() =>
+  import('./pages/Pedagogy').then((module) => ({
+    default: module.Pedagogy,
+  })),
+);
+
+const CodePage = lazy(() =>
+  import('./pages/CodePage').then((module) => ({
+    default: module.CodePage,
+  })),
+);
+
+const About = lazy(() =>
+  import('./pages/About').then((module) => ({
+    default: module.About,
+  })),
+);
+
+const Contact = lazy(() =>
+  import('./pages/Contact').then((module) => ({
+    default: module.Contact,
+  })),
+);
 
 const ScrollToTop = () => {
   const { pathname, hash } = useLocation();
@@ -55,14 +82,16 @@ function App() {
         <Navbar />
 
         <div className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/scene" element={<Scene />} />
-            <Route path="/pedagogy" element={<Pedagogy />} />
-            <Route path="/code" element={<CodePage />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+          <Suspense fallback={null}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/scene" element={<Scene />} />
+              <Route path="/pedagogy" element={<Pedagogy />} />
+              <Route path="/code" element={<CodePage />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </Suspense>
         </div>
 
         <Footer />
@@ -72,3 +101,4 @@ function App() {
 }
 
 export default App;
+

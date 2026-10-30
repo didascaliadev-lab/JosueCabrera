@@ -21,7 +21,7 @@ export const AboutPreviewSection = () => {
           className="lg:col-span-5"
         >
           <ImagePlaceholder
-            imageSrc="/images/home/bio.png"
+            imageSrc="/images/home/bio.webp"
             altText="Retrato de Josué Cabrera"
             aspectRatio="vertical"
             className="w-full"

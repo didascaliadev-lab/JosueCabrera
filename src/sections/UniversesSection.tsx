@@ -54,7 +54,7 @@ export const UniversesSection = () => {
 
           <div className="lg:col-span-6">
             <ImagePlaceholder
-              imageSrc="/images/home/naufragos.png"
+              imageSrc="/images/home/naufragos.webp"
               altText="Josué Cabrera en escena"
               aspectRatio="landscape"
             />
@@ -71,7 +71,7 @@ export const UniversesSection = () => {
         >
           <div className="order-2 lg:order-1 lg:col-span-6">
             <ImagePlaceholder
-              imageSrc="/images/home/clase.png"
+              imageSrc="/images/home/clase.webp"
               altText="Josué Cabrera durante una actividad de pedagogía teatral"
               aspectRatio="landscape"
             />
@@ -158,7 +158,7 @@ export const UniversesSection = () => {
 
           <div className="lg:col-span-6">
             <ImagePlaceholder
-              imageSrc="/images/home/baile.png"
+              imageSrc="/images/home/baile.webp"
               altText="Josué Cabrera bailando salsa cubana"
               aspectRatio="vertical"
             />
@@ -175,7 +175,7 @@ export const UniversesSection = () => {
         >
           <div className="order-2 lg:order-1 lg:col-span-6">
             <ImagePlaceholder
-              imageSrc="/images/home/codigo.png"
+              imageSrc="/images/home/codigo.webp"
               altText="Trabajo de desarrollo web de Josué Cabrera"
               aspectRatio="landscape"
             />
